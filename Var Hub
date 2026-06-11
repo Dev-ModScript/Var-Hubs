@@ -2,6 +2,10 @@ local PlaceId = game.PlaceId
 
 local Games = {
     [79268393072444] = "https://raw.githubusercontent.com/Dev-ModScript/Bruh/refs/heads/main/Sell%20Lemons.lua",
+    [2753915549] = "https://www.xhider.xyz/raw/ThanhDuyHub/BloxFruit.Xnhau",
+    [4442272183]    = "https://www.xhider.xyz/raw/ThanhDuyHub/BloxFruit.Xnhau",
+    [7449423635] = "https://www.xhider.xyz/raw/ThanhDuyHub/BloxFruit.Xnhau",
+    [122478697296975]    = "https://www.xhider.xyz/raw/ThanhDuyHub/BloxFruit.Xnhau",
 }
 
 local DefaultScript = "https://www.xhider.xyz/raw/ChaMucNguyen/BuonCuoivcl"
