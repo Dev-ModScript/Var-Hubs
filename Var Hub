@@ -1,0 +1,19 @@
+local PlaceId = game.PlaceId
+
+local Games = {
+    [79268393072444] = "https://raw.githubusercontent.com/Dev-ModScript/Bruh/refs/heads/main/Sell%20Lemons.lua",
+}
+
+local DefaultScript = "https://www.xhider.xyz/raw/ChaMucNguyen/BuonCuoivcl"
+
+local Url = Games[PlaceId] or DefaultScript
+
+local Success, Result = pcall(function()
+    return game:HttpGet(Url)
+end)
+
+if Success and Result then
+    loadstring(Result)()
+else
+    warn("Failed to load script:", Result)
+end
