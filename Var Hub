@@ -6,6 +6,7 @@ local Games = {
     [4442272183]    = "https://obfuscatorhub.onrender.com/api/pr0wtfvb",
     [7449423635] = "https://obfuscatorhub.onrender.com/api/pr0wtfvb",
     [122478697296975]    = "https://obfuscatorhub.onrender.com/api/pr0wtfvb",
+    [92416421522960] = "https://obfuscatorhub.onrender.com/api/6zmg2su2",
 }
 
 local DefaultScript = "https://www.xhider.xyz/raw/ChaMucNguyen/BuonCuoivcl"
