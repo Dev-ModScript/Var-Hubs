@@ -9,6 +9,7 @@ local Games = {
     [92416421522960] = "https://obfuscatorhub.onrender.com/api/6zmg2su2",
     [18687417158] = "https://obfuscatorhub.onrender.com/api/w34lpyi5",
     [4520749081] = "https://www.xhider.xyz/raw/ThanhDuyHub/Kinglegacy.lua"
+    [79546208627805] = "https://obfuscatorhub.onrender.com/api/9uwuoc31"
 }
 
 local DefaultScript = "https://www.xhider.xyz/raw/ChaMucNguyen/BuonCuoivcl"
