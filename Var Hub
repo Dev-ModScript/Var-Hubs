@@ -12,6 +12,8 @@ local Games = {
     [79546208627805] = "https://api.luacrack.site/files/v4/loaders/aa5f2858ade675386e40c8f53b42a70d.lua",
 }
 
+local DefaultScript = ""
+
 local Url = Games[PlaceId] or DefaultScript
 
 local Success, Result = pcall(function()
