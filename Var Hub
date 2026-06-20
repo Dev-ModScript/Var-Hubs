@@ -12,6 +12,7 @@ local Games = {
     [79546208627805] = "https://api.luacrack.site/files/v4/loaders/aa5f2858ade675386e40c8f53b42a70d.lua",
     [103854444055060] = "https://pastefy.app/GDPX5l9u/raw",
     [89469502395769] = "https://obfuscatorhub.onrender.com/api/mxicvp2l",
+    [97598239454123] = "https://pastefy.app/PTepYP93/raw",
 }
 
 local DefaultScript = ""
