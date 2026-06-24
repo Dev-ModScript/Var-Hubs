@@ -2,10 +2,10 @@ local PlaceId = game.PlaceId
 
 local Games = {
     [79268393072444] = "https://raw.githubusercontent.com/Dev-ModScript/Bruh/refs/heads/main/Sell%20Lemons.lua",
-    [2753915549] = "https://pastefy.app/IGw1j3dx/raw",
-    [4442272183]    = "https://pastefy.app/IGw1j3dx/raw",
-    [7449423635] = "https://pastefy.app/IGw1j3dx/raw",
-    [122478697296975]    = "https://pastefy.app/IGw1j3dx/raw",
+    [2753915549] = "https://api.jnkie.com/api/v1/luascripts/public/a4a1c3b6951b9a5dd045aa1257ca891b81c1fdb447fcb3327f8333f18216e28b/download",
+    [4442272183]    = "https://api.jnkie.com/api/v1/luascripts/public/a4a1c3b6951b9a5dd045aa1257ca891b81c1fdb447fcb3327f8333f18216e28b/download",
+    [7449423635] = "https://api.jnkie.com/api/v1/luascripts/public/a4a1c3b6951b9a5dd045aa1257ca891b81c1fdb447fcb3327f8333f18216e28b/download",
+    [122478697296975]    = "https://api.jnkie.com/api/v1/luascripts/public/a4a1c3b6951b9a5dd045aa1257ca891b81c1fdb447fcb3327f8333f18216e28b/download",
     [92416421522960] = "https://obfuscatorhub.onrender.com/api/6zmg2su2",
     [18687417158] = "https://obfuscatorhub.onrender.com/api/w34lpyi5",
     [4520749081] = "https://obfuscatorhub.onrender.com/api/hzozigey",
