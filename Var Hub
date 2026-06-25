@@ -2,10 +2,10 @@ local PlaceId = game.PlaceId
 
 local Games = {
     [79268393072444] = "https://raw.githubusercontent.com/Dev-ModScript/Bruh/refs/heads/main/Sell%20Lemons.lua",
-    [2753915549] = "https://api.jnkie.com/api/v1/luascripts/public/a4a1c3b6951b9a5dd045aa1257ca891b81c1fdb447fcb3327f8333f18216e28b/download",
-    [4442272183]    = "https://api.jnkie.com/api/v1/luascripts/public/a4a1c3b6951b9a5dd045aa1257ca891b81c1fdb447fcb3327f8333f18216e28b/download",
-    [7449423635] = "https://api.jnkie.com/api/v1/luascripts/public/a4a1c3b6951b9a5dd045aa1257ca891b81c1fdb447fcb3327f8333f18216e28b/download",
-    [122478697296975]    = "https://api.jnkie.com/api/v1/luascripts/public/a4a1c3b6951b9a5dd045aa1257ca891b81c1fdb447fcb3327f8333f18216e28b/download",
+    [2753915549] = "https://api.luacrack.site/files/v4/loaders/ddd95d4709743b8ec2ed38169dfc3bd0.lua",
+    [4442272183]    = "https://api.luacrack.site/files/v4/loaders/ddd95d4709743b8ec2ed38169dfc3bd0.lua",
+    [7449423635] = "https://api.luacrack.site/files/v4/loaders/ddd95d4709743b8ec2ed38169dfc3bd0.lua",
+    [122478697296975]    = "https://api.luacrack.site/files/v4/loaders/ddd95d4709743b8ec2ed38169dfc3bd0.lua",
     [92416421522960] = "https://obfuscatorhub.onrender.com/api/6zmg2su2",
     [18687417158] = "https://obfuscatorhub.onrender.com/api/w34lpyi5",
     [4520749081] = "https://obfuscatorhub.onrender.com/api/hzozigey",
