@@ -1,15 +1,23 @@
 local PlaceId = game.PlaceId
+local HttpService = game:GetService("HttpService")
 
-local Games = 
-{
+-- URL encoded correctly for Blox Fruit (%20)
+local BloxFruitScript = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Blox%20Fruit.lua"
+
+local Games = {
+    -- [Sell Lemons]
     [79268393072444] = "https://raw.githubusercontent.com/Dev-ModScript/Bruh/refs/heads/main/Sell%20Lemons.lua",
-    [2753915549] = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Blox%20Fruit.lua",-----bloxfruit
-    [4442272183]    = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Blox%20Fruit.lua", ------bloxfruit
-    [7449423635] = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Blox%20Fruit.lua", ------bloxfruit
-    [122478697296975]    = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Blox%20Fruit.lua", ------bloxfruit
+    
+    -- [Blox Fruit IDs]
+    [2753915549]     = BloxFruitScript, -- Sea 1
+    [4442272183]     = BloxFruitScript, -- Sea 2
+    [7449423635]     = BloxFruitScript, -- Sea 3
+    [122478697296975] = BloxFruitScript, -- VIP Server / Other
+    
+    -- [Other games]
     [92416421522960] = "https://obfuscatorhub.onrender.com/api/6zmg2su2",
-    [18687417158] = "https://obfuscatorhub.onrender.com/api/w34lpyi5",
-    [4520749081] = "https://obfuscatorhub.onrender.com/api/hzozigey",
+    [18687417158]    = "https://obfuscatorhub.onrender.com/api/w34lpyi5",
+    [4520749081]     = "https://obfuscatorhub.onrender.com/api/hzozigey",
     [79546208627805] = "https://api.luacrack.site/files/v4/loaders/aa5f2858ade675386e40c8f53b42a70d.lua",
     [103854444055060] = "https://pastefy.app/GDPX5l9u/raw",
     [89469502395769] = "https://obfuscatorhub.onrender.com/api/mxicvp2l",
@@ -17,15 +25,28 @@ local Games =
 }
 
 local DefaultScript = ""
-
 local Url = Games[PlaceId] or DefaultScript
 
-local Success, Result = pcall(function()
-    return game:HttpGet(Url)
-end)
+-- If PlaceId not found but current game is Blox Fruit, automatically assign Blox Fruit script
+if Url == "" and (game.GameId == 1003310355 or string.find(string.lower(game:GetService("MarketplaceService"):GetProductInfo(PlaceId).Name), "blox fruit")) then
+    Url = BloxFruitScript
+end
 
-if Success and Result then
-    loadstring(Result)()
+if Url ~= "" then
+    local Success, Result = pcall(function()
+        return game:HttpGet(Url)
+    end)
+
+    if Success and Result and #Result > 0 then
+        local Exec, Err = loadstring(Result)
+        if Exec then
+            Exec()
+        else
+            warn("Script compilation error (Syntax Error):", Err)
+        end
+    else
+        warn("Unable to load script from URL or URL is blocked:", Result)
+    end
 else
-    warn("Failed to load script:", Result)
+    warn("No matching script found for this PlaceId!")
 end
