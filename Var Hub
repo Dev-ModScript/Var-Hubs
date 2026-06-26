@@ -2,7 +2,7 @@ local PlaceId = game.PlaceId
 
 local Games = {
     [79268393072444] = "https://raw.githubusercontent.com/Dev-ModScript/Bruh/refs/heads/main/Sell%20Lemons.lua",
-    [2753915549] = "https://pastefy.app/WmsXGEM9/raw"
+    [994732206] = "https://pastefy.app/WmsXGEM9/raw"
     [92416421522960] = "https://obfuscatorhub.onrender.com/api/6zmg2su2",
     [18687417158] = "https://obfuscatorhub.onrender.com/api/w34lpyi5",
     [4520749081] = "https://obfuscatorhub.onrender.com/api/hzozigey",
