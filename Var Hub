@@ -1,7 +1,7 @@
 local PlaceId = game.PlaceId
 local HttpService = game:GetService("HttpService")
 
--- URL encoded correctly for Blox Fruit (%20)
+-- URL encoded correctly for Blox Fruit
 local BloxFruitScript = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Blox%20Fruit.lua"
 
 local Games = {
