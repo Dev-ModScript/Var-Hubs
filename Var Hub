@@ -21,7 +21,7 @@ local Games = {
     [18687417158]    = "https://obfuscatorhub.onrender.com/api/w34lpyi5",
 
     -- [👑 King Legacy IDs]
-    [4520749081]     = "https://obfuscatorhub.onrender.com/api/hzozigey",
+    [4520749081]     = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/King-Legacy.lua",
 
     -- [🫎 99 Nights in the Forest IDs]
     [79546208627805] = "https://api.luacrack.site/files/v4/loaders/aa5f2858ade675386e40c8f53b42a70d.lua",
