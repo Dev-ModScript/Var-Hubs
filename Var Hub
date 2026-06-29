@@ -15,7 +15,7 @@ local Games = {
     [122478697296975] = BloxFruitScript, -- VIP Server / Other
     
     -- [🎲 Slime-RNG IDs]
-    [92416421522960] = "https://obfuscatorhub.onrender.com/api/6zmg2su2",
+    [92416421522960] = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Slime%20RNG.lua",
 
     -- [💀 Forsaken IDs]
     [18687417158]    = "https://obfuscatorhub.onrender.com/api/w34lpyi5",
