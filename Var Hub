@@ -2,7 +2,7 @@ local PlaceId = game.PlaceId
 local HttpService = game:GetService("HttpService")
 
 -- URL encoded correctly for Blox Fruit
-local BloxFruitScript = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Blox%20Fruit.lua"
+local BloxFruitScript = "https://raw.githubusercontent.com/DuyYeuEmNhieuLam/Var-Hub/refs/heads/main/BloxFruit.lua"
 
 local Games = {
     -- [Sell Lemons]
@@ -21,7 +21,9 @@ local Games = {
     [79546208627805] = "https://api.luacrack.site/files/v4/loaders/aa5f2858ade675386e40c8f53b42a70d.lua",
     [103854444055060] = "https://pastefy.app/GDPX5l9u/raw",
     [89469502395769] = "https://obfuscatorhub.onrender.com/api/mxicvp2l",
-    [97598239454123] = "https://pastefy.app/PTepYP93/raw",
+
+    -- [🌱 Grow a Garden 2 IDs]
+    [97598239454123] = "https://raw.githubusercontent.com/DuyYeuEmNhieuLam/Var-Hub/refs/heads/main/Grow%20A%20Garden%202.lua",
 }
 
 local DefaultScript = ""
