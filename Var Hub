@@ -5,21 +5,31 @@ local HttpService = game:GetService("HttpService")
 local BloxFruitScript = "https://raw.githubusercontent.com/DuyYeuEmNhieuLam/Var-Hub/refs/heads/main/BloxFruit.lua"
 
 local Games = {
-    -- [Sell Lemons]
+    -- [🍋 Sell Lemons]
     [79268393072444] = "https://raw.githubusercontent.com/Dev-ModScript/Bruh/refs/heads/main/Sell%20Lemons.lua",
     
-    -- [Blox Fruit IDs]
+    -- [🌏 Blox Fruit IDs]
     [2753915549]     = BloxFruitScript, -- Sea 1
     [4442272183]     = BloxFruitScript, -- Sea 2
     [7449423635]     = BloxFruitScript, -- Sea 3
     [122478697296975] = BloxFruitScript, -- VIP Server / Other
     
-    -- [Other games]
+    -- [🎲 Slime-RNG IDs]
     [92416421522960] = "https://obfuscatorhub.onrender.com/api/6zmg2su2",
+
+    -- [💀 Forsaken IDs]
     [18687417158]    = "https://obfuscatorhub.onrender.com/api/w34lpyi5",
+
+    -- [👑 King Legacy IDs]
     [4520749081]     = "https://obfuscatorhub.onrender.com/api/hzozigey",
+
+    -- [🫎 99 Nights in the Forest IDs]
     [79546208627805] = "https://api.luacrack.site/files/v4/loaders/aa5f2858ade675386e40c8f53b42a70d.lua",
+
+    -- [🥷 Silent Assassins IDs]
     [103854444055060] = "https://pastefy.app/GDPX5l9u/raw",
+
+    -- [🎲 Kick a Lucky Block IDs]
     [89469502395769] = "https://obfuscatorhub.onrender.com/api/mxicvp2l",
 
     -- [🌱 Grow a Garden 2 IDs]
