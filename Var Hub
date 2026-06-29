@@ -18,7 +18,7 @@ local Games = {
     [92416421522960] = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Slime%20RNG.lua",
 
     -- [💀 Forsaken IDs]
-    [18687417158]    = "https://obfuscatorhub.onrender.com/api/w34lpyi5",
+    [18687417158]    = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Forsaken.lua",
 
     -- [👑 King Legacy IDs]
     [4520749081]     = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/King-Legacy.lua",
