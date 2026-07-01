@@ -1,51 +1,61 @@
 local PlaceId = game.PlaceId
 local HttpService = game:GetService("HttpService")
 
--- URL encoded correctly for Blox Fruit
-local BloxFruitScript = "https://raw.githubusercontent.com/DuyYeuEmNhieuLam/Var-Hub/refs/heads/main/BloxFruit.lua"
+-- Centralized Script URLs
+local BloxFruitScript      = "https://raw.githubusercontent.com/DuyYeuEmNhieuLam/Var-Hub/refs/heads/main/BloxFruit.lua"
+local SellLemonsScript     = "https://raw.githubusercontent.com/Dev-ModScript/Bruh/refs/heads/main/Sell%20Lemons.lua"
+local SlimeRngScript       = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Slime%20RNG.lua"
+local ForsakenScript       = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Forsaken.lua"
+local KingLegacyScript     = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/King-Legacy.lua"
+local NightsForestScript   = "https://api.luacrack.site/files/v4/loaders/aa5f2858ade675386e40c8f53b42a70d.lua"
+local SilentAssassinsScript = "https://pastefy.app/GDPX5l9u/raw"
+local KickLuckyBlockScript  = "https://obfuscatorhub.onrender.com/api/mxicvp2l"
+local GrowGarden2Script    = "https://raw.githubusercontent.com/DuyYeuEmNhieuLam/Var-Hub/refs/heads/main/Grow%20A%20Garden%202.lua"
+local GrowGarden1Script    = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Grow%20A%20Garden.lua"
+local PlantBrainrotScript  = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Plant%20Vs%20Brainrot.lua"
 
 local Games = {
-    -- [🍋 Sell Lemons]
-    [79268393072444] = "https://raw.githubusercontent.com/Dev-ModScript/Bruh/refs/heads/main/Sell%20Lemons.lua",
+    -- [ Sell Lemons ]
+    [79268393072444]   = SellLemonsScript,
     
-    -- [🌏 Blox Fruit IDs]
-    [2753915549]     = BloxFruitScript, -- Sea 1
-    [4442272183]     = BloxFruitScript, -- Sea 2
-    [7449423635]     = BloxFruitScript, -- Sea 3
-    [122478697296975] = BloxFruitScript, -- VIP Server / Other
+    -- [ Blox Fruit IDs ]
+    [2753915549]       = BloxFruitScript, -- Sea 1
+    [4442272183]       = BloxFruitScript, -- Sea 2
+    [7449423635]       = BloxFruitScript, -- Sea 3
+    [122478697296975]  = BloxFruitScript, -- VIP Server / Other
     
-    -- [🎲 Slime-RNG IDs]
-    [92416421522960] = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Slime%20RNG.lua",
+    -- [ Slime-RNG IDs ]
+    [92416421522960]   = SlimeRngScript,
 
-    -- [💀 Forsaken IDs]
-    [18687417158]    = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Forsaken.lua",
+    -- [ Forsaken IDs ]
+    [18687417158]      = ForsakenScript,
 
-    -- [👑 King Legacy IDs]
-    [4520749081]     = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/King-Legacy.lua",
+    -- [ King Legacy IDs ]
+    [4520749081]       = KingLegacyScript,
 
-    -- [🫎 99 Nights in the Forest IDs]
-    [79546208627805] = "https://api.luacrack.site/files/v4/loaders/aa5f2858ade675386e40c8f53b42a70d.lua",
+    -- [ 99 Nights in the Forest IDs ]
+    [79546208627805]   = NightsForestScript,
 
-    -- [🥷 Silent Assassins IDs]
-    [103854444055060] = "https://pastefy.app/GDPX5l9u/raw",
+    -- [ Silent Assassins IDs ]
+    [103854444055060]  = SilentAssassinsScript,
 
-    -- [🎲 Kick a Lucky Block IDs]
-    [89469502395769] = "https://obfuscatorhub.onrender.com/api/mxicvp2l",
+    -- [ Kick a Lucky Block IDs ]
+    [89469502395769]   = KickLuckyBlockScript,
 
-    -- [🌱 Grow a Garden 2 IDs]
-    [97598239454123] = "https://raw.githubusercontent.com/DuyYeuEmNhieuLam/Var-Hub/refs/heads/main/Grow%20A%20Garden%202.lua",
+    -- [ Grow a Garden 2 IDs ]
+    [97598239454123]   = GrowGarden2Script,
 
-    -- [🌱 Grow a Garden 1 IDs]
-    [126884695634066] = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Grow%20A%20Garden.lua",
+    -- [ Grow a Garden 1 IDs ]
+    [126884695634066]  = GrowGarden1Script,
 
-    -- [🦠 Plant Vs Brainrot]
-    [127742093697776] = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Plant%20Vs%20Brainrot.lua",
+    -- [ Plant Vs Brainrot ]
+    [127742093697776]  = PlantBrainrotScript,
 }
 
 local DefaultScript = ""
 local Url = Games[PlaceId] or DefaultScript
 
--- If PlaceId not found but current game is Blox Fruit, automatically assign Blox Fruit script
+-- Fallback check for Blox Fruit if PlaceId is missing from the table
 if Url == "" and (game.GameId == 1003310355 or string.find(string.lower(game:GetService("MarketplaceService"):GetProductInfo(PlaceId).Name), "blox fruit")) then
     Url = BloxFruitScript
 end
