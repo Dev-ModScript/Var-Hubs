@@ -39,7 +39,7 @@ local Games = {
     [126884695634066] = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Grow%20A%20Garden.lua",
 
     -- [🦠 Plant Vs Brainrot]
-    [79268393072444] = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Plant%20Vs%20Brainrot.lua",
+    [127742093697776] = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Plant%20Vs%20Brainrot.lua",
 }
 
 local DefaultScript = ""
