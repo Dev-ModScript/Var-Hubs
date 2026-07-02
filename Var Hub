@@ -2,7 +2,7 @@ local PlaceId = game.PlaceId
 local HttpService = game:GetService("HttpService")
 
 -- Centralized Script URLs
-local BloxFruitScript      = "https://raw.githubusercontent.com/DuyYeuEmNhieuLam/Var-Hub/refs/heads/main/BloxFruit.lua"
+local BloxFruitScript      = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Blox%20Kid.lua"
 local SellLemonsScript     = "https://raw.githubusercontent.com/Dev-ModScript/Bruh/refs/heads/main/Sell%20Lemons.lua"
 local SlimeRngScript       = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Slime%20RNG.lua"
 local ForsakenScript       = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Forsaken.lua"
