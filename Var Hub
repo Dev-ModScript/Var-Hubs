@@ -13,6 +13,7 @@ local KickLuckyBlockScript  = "https://obfuscatorhub.onrender.com/api/mxicvp2l"
 local GrowGarden2Script    = "https://raw.githubusercontent.com/DuyYeuEmNhieuLam/Var-Hub/refs/heads/main/Grow%20A%20Garden%202.lua"
 local GrowGarden1Script    = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Grow%20A%20Garden.lua"
 local PlantBrainrotScript  = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/Plant%20Vs%20Brainrot.lua"
+local ChameleonScript      = "https://raw.githubusercontent.com/Dev-ModScript/Var-Hub/refs/heads/main/obfuscated-Chameleon.lua"
 
 local Games = {
     -- [ Sell Lemons ]
@@ -50,6 +51,9 @@ local Games = {
 
     -- [ Plant Vs Brainrot ]
     [127742093697776]  = PlantBrainrotScript,
+
+    -- [ Chameleon ]
+    [74511210941284]   = ChameleonScript,
 }
 
 local DefaultScript = ""
